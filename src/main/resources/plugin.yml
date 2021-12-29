@@ -1,0 +1,13 @@
+name: Nicknames
+version: '${project.version}'
+main: com.icurety.nicknames.Nicknames
+api-version: 1.18
+authors: [ Zakiisak ]
+description: A plugin that allows nicknames to be set on players
+commands:
+  setname:
+    description: changes the name of a player
+    usage: /<command> <playerName> <newName>
+  clearname:
+    description: Clears the name of a player to their original
+    usage: /<command> <player>
